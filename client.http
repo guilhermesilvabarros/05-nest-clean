@@ -33,3 +33,9 @@ Authorization: Bearer {{access_token}}
   "title": "Example",
   "content": "Example"
 }
+
+###
+
+# @name fetch_recent_questions
+GET {{baseUrl}}/questions
+Authorization: Bearer {{access_token}}
